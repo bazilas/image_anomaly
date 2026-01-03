@@ -15,11 +15,11 @@ This project uses the Gemini CLI to automate the detection of anomalies in image
 ## Setup & Usage
 
 1.  **Configure:**
-    Make sure that your prompt_anomaly_mask.json file and Python script are in the project root. If necessary, update the 'input_folder' path in the script.
+    Make sure that your *one_anomaly_run_short.json* file and Python script are in the project root. If necessary, update the 'input_folder' path in the script.
     
 3.  **Run:**
     ```bash
-    python detect_anomalies.py
+    python run_visualise_gemini_cli_anomaly.py
     ```
 
 ## AI Usage Disclosure
