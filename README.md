@@ -22,5 +22,5 @@ This project uses the Gemini CLI to automate the detection of anomalies in image
     python detect_anomalies.py
     ```
 
-# AI Usage Disclosure
+## AI Usage Disclosure
 This project uses Google Gemini 3.0 Pro Preview (via the Gemini CLI) as the core reasoning engine for anomaly detection. The model analyses visual data, identifies foreign objects and generates coordinate-based annotations. Although the detection logic relies on AI, the visualisation and binary mask generation are handled deterministically by custom Python scripts.
